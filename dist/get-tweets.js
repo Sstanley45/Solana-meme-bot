@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getTweets = getTweets;
 const axios_1 = __importDefault(require("axios"));
-const TWEET_MAX_TIME_MS = 2 * 60 * 60 * 1000;
+const TWEET_MAX_TIME_MS = 1 * 60 * 60 * 1000; // 5 minutes
 function getTweets(userName) {
     return __awaiter(this, void 0, void 0, function* () {
         let config = {

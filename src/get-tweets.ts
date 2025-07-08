@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const TWEET_MAX_TIME_MS = 2 * 60 * 60 * 1000;
+const TWEET_MAX_TIME_MS = 1 * 60 * 60 * 1000; // 5 minutes
 
 interface Tweet {
     contents: string;

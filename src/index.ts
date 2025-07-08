@@ -10,7 +10,7 @@ const SOL_AMOUNT = 0.001 * LAMPORTS_PER_SOL;
 const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 2000;
 const connection = new Connection(process.env.RPC_URL!);
-const TWEET_FETCH_INTERVAL_MS = 0.1 * 60 * 1000; // 5 minutes
+const TWEET_FETCH_INTERVAL_MS = 5 * 60 * 1000; 
 
 const MONITORED_USERS = [
     "1736404903122100225", 
